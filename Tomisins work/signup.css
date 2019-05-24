@@ -289,14 +289,14 @@ ul.justify-content-center.nav.mt-5 {
     /*navbar*/
   nav.navbar.navbar-expand-lg.navbar-light.bg-default.coloring {
     background-color: #47558b;
-    width: 125%;
+    width: 134%;
   }
   /*header - jumbotron*/
   .jumbotron.jumbotron-fluid {
     background-color: #47558b;
     background-image: url('shapes.png');
     background-size:cover;
-    width: 125%;
+    width: 134%;
   }
   .img-fluid{
     margin-left: 65px;
@@ -353,6 +353,9 @@ label {
 form {
     margin-top: 65px;
 }
+.Already {
+    margin-left: -174px;
+}
 
 /*button*/
 .button {
@@ -376,11 +379,11 @@ ul.justify-content-center.nav.mt-5 {
     margin-top: -32px;
     height: 109px;
     padding-top: 14px;
-    width: 125%;
+    width: 134%;
   }
   footer {
     background-color: #36467a;
-    width: 125%;
+    width: 134%;
 }
 .col-3.address {
   margin-left: -51px;
