@@ -1,0 +1,395 @@
+/* Sign up page tominsin*/
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+/*navbar*/
+img.firstlogo {
+    margin-left: 35px;
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-default {
+    background-color: #47558b;
+}
+
+/*jumbotron*/
+.jumbotron.jumbotron-fluid {
+    background-color: #47558b;
+    background-image: url('shapes.png');
+    background-size:cover;
+}
+h1.somewelcometext {
+    color: white;
+}
+.col-sm-6.text-md-center.welocmetext {
+    margin-top: 90px;
+}
+p.somewelcomeparagraph {
+    color: white;
+}
+
+button.btn.btn-warning.signin {
+    margin-bottom: 8px;
+    width: -1px;
+}
+
+/*form part */
+.hello {
+    margin-left: 83px;
+    color: #2940B8;
+    padding-top: 100px;
+}
+
+.form-control {
+    display: block;
+    width: 70%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-bottom: solid #c4c4c4 1px;
+    border-radius: -13.75rem;
+    border-top: white;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-left: 81px;
+    clear: both;
+    border-right: aliceblue;
+    border-left: aliceblue;
+}
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    margin-left: 92px;
+    color: #2930b8;
+}
+.form-group {
+    margin-bottom: 3rem;
+}
+form {
+    margin-top: 65px;
+}
+
+/*buttons in form*/
+
+.button {
+    margin-left: 340px;
+}
+button.btn.btn-primary.signupbutton {
+    color: #fecb3f;
+    background-color: #37467a;
+    width: 437.68px;
+    height: 40px;
+}
+.Already {
+    margin-left: 155px;
+}
+.login {
+    margin-left: 49px;
+}
+
+/* footer*/
+ul.justify-content-center.nav.mt-5 {
+    background-color: 36467a;
+    background-color: #47558b;
+    margin-top: -32px;
+    height: 63px;
+    padding-top: 14px;
+  }
+  footer {
+    background-color: #36467a;
+  }
+  
+/*@media (min-width: 576px) {
+/*navbar*/
+
+img.firstlogo {
+    margin-left: 35px;
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-default {
+    background-color: #47558b;
+}
+
+/*jumbotron*/
+.jumbotron.jumbotron-fluid {
+    background-color: #47558b;
+    background-image: url('shapes.png');
+    background-size:cover;
+}
+h1.somewelcometext {
+    color: white;
+}
+.col-sm-6.text-md-center.welocmetext {
+    margin-top: 90px;
+}
+p.somewelcomeparagraph {
+    color: white;
+}
+
+button.btn.btn-warning.signin {
+    margin-bottom: 8px;
+    width: -1px;
+}
+
+/*form part */
+.hello {
+    margin-left: 83px;
+    color: #2940B8;
+    padding-top: 100px;
+}
+
+.form-control {
+    display: block;
+    width: 70%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-bottom: solid #c4c4c4 1px;
+    border-radius: -13.75rem;
+    border-top: white;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-left: 81px;
+    clear: both;
+    border-right: aliceblue;
+    border-left: aliceblue;
+}
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    margin-left: 92px;
+    color: #2930b8;
+}
+.form-group {
+    margin-bottom: 3rem;
+}
+form {
+    margin-top: 65px;
+}
+
+/*buttons in form*/
+
+.button {
+    margin-left: 340px;
+}
+button.btn.btn-primary.signupbutton {
+    color: #fecb3f;
+    background-color: #37467a;
+    width: 437.68px;
+    height: 40px;
+}
+.Already {
+    margin-left: 155px;
+}
+.login {
+    margin-left: 49px;
+}
+
+/* footer*/
+ul.justify-content-center.nav.mt-5 {
+    background-color: 36467a;
+    background-color: #47558b;
+    margin-top: -32px;
+    height: 63px;
+    padding-top: 14px;
+  }
+   
+  @media (max-width: 576px) { 
+    /*navbar*/
+  nav.navbar.navbar-expand-lg.navbar-light.bg-default.coloring {
+    background-color: #47558b;
+  }
+  /*header - jumbotron*/
+  .jumbotron.jumbotron-fluid {
+    background-color: #47558b;
+    background-image: url('shapes.png');
+    background-size:cover;
+  }
+  h1.somewelcometext {
+    color: white;
+  }
+  .col-sm-6.text-md-center.welocmetext {
+    margin-top: 90px;
+  }
+  p.somewelcomeparagraph {
+    color: white;
+  }
+
+  /*form part*/
+.hello {
+    margin-left: 83px;
+    color: #2940B8;
+    padding-top: 100px;
+}
+.form-control {
+    display: block;
+    width: 70%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-bottom: solid #c4c4c4 1px;
+    border-radius: -13.75rem;
+    border-top: white;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-left: 81px;
+    clear: both;
+    border-right: aliceblue;
+    border-left: aliceblue;
+}
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    margin-left: 92px;
+    color: #2930b8;
+}
+.form-group {
+    margin-bottom: 3rem;
+}
+form {
+    margin-top: 65px;
+}
+
+/*button*/
+.button {
+    margin-left: 340px;
+}
+button.btn.btn-primary.signupbutton {
+    color: #37467a;
+    background-color: #fecb3f;
+    width: 437.68px;
+    height: 40px;
+}
+.password {
+    margin-left: 100px;
+}
+
+/* footer*/
+ul.justify-content-center.nav.mt-5 {
+    background-color: 36467a;
+    background-color: #47558b;
+    margin-top: -32px;
+    height: 63px;
+    padding-top: 14px;
+  }
+   }
+
+
+  @media (max-width: 768px) { 
+    /*navbar*/
+  nav.navbar.navbar-expand-lg.navbar-light.bg-default.coloring {
+    background-color: #47558b;
+    width: 134%;
+  }
+  /*header - jumbotron*/
+  .jumbotron.jumbotron-fluid {
+    background-color: #47558b;
+    background-image: url('shapes.png');
+    background-size:cover;
+    width: 134%;
+  }
+  .img-fluid{
+    margin-left: 65px;
+  }
+  h1.somewelcometext {
+    color: white;
+    white-space: nowrap;
+  }
+  .col-sm-6.text-md-center.welocmetext {
+    margin-top: 90px;
+  }
+  p.somewelcomeparagraph {
+    color: white;
+    margin-left: 48px;
+    font-size: x-large;
+  }
+
+  /*form part*/
+.hello {
+    margin-left: 27px;
+    color: #2940B8;
+    padding-top: 100px;
+}
+.form-control {
+    display: block;
+    width: 70%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-bottom: solid #c4c4c4 1px;
+    border-radius: -13.75rem;
+    border-top: white;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-left: 81px;
+    clear: both;
+    border-right: aliceblue;
+    border-left: aliceblue;
+}
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    margin-left: 92px;
+    color: #2930b8;
+}
+.form-group {
+    margin-bottom: 3rem;
+    margin-left: -60px;
+}
+form {
+    margin-top: 65px;
+}
+.Already {
+    margin-left: -174px;
+}
+
+/*button*/
+.button {
+    margin-left: 340px;
+}
+button.btn.btn-primary.signupbutton {
+    color: #37467a;
+    background-color: #fecb3f;
+    width: 293.68px;
+    height: 40px;
+    margin-left: -256px;
+}
+.password {
+    margin-left: -240px;
+}
+
+/* footer*/
+ul.justify-content-center.nav.mt-5 {
+    background-color: 36467a;
+    background-color: #47558b;
+    margin-top: -32px;
+    height: 109px;
+    padding-top: 14px;
+    width: 134%;
+  }
+  footer {
+    background-color: #36467a;
+    width: 134%;
+}
+.col-3.address {
+  margin-left: -51px;
+}
+/*.col-3.company {
+  margin-left: -90px;
+  margin-top: 175px;
+}*/
+  }

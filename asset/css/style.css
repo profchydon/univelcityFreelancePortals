@@ -1,0 +1,586 @@
+/*Richards Cascading stylesheet for the landing page*/
+body{
+    font-family: 'Nunito', sans-serif;
+}
+/*navbar*/
+.custom-select.dark{
+  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='%23ffffff' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right .75rem center/8px 10px;
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-default.coloring {
+  background-color: #47558b;
+}
+/*header section -- jumbotron*/
+.jumbotron.jumbotron-fluid {
+  background-color: #47558b;
+  background-image: url('shapes.png');
+  background-size:cover;
+}
+h1.somewelcometext {
+  color: white;
+}
+.col-sm-6.text-md-center.welocmetext {
+  margin-top: 90px;
+}
+p.somewelcomeparagraph {
+  color: white;
+}
+li.nav-item.firstselect {
+  margin-left: 24px;
+  margin-right: 20px;
+}
+li.nav-item.secondselect {
+  margin-left: 3px;
+  margin-right: 20px;
+}
+ul.justify-content-center.nav {
+  background-color: 36467a;
+  background-color: #36467a;
+  margin-top: -32px;
+  height: 63px;
+  padding-top: 14px;
+}
+h1.text-center.topgigs {
+  margin-top: 60px;
+}
+.frontend {
+  background-color: #47558b;
+  padding-top: 18px;
+  color: white;
+  height: 356px;
+}
+.productdesigner {
+  background-color: #47558b;
+  padding-top: 18px;
+  color: white;
+  height: 356px;
+}
+.datascience {
+  background-color: #47558b;
+  padding-top: 18px;
+  color: white;
+  height: 356px;
+}
+/*buttons o the top gigs*/
+button.btn.btn-warning.viewmore {
+  margin-left: 155px;
+}
+button.btn.btn-warning.viewmore1 {
+  margin-left: 155px;
+  margin-top: 76px;
+}
+button.btn.btn-warning.viewmore2 {
+  margin-left: 155px;
+  margin-top: 17px;
+}
+/*Top Graduates*/
+h1.text-center.graduates {
+  margin-top: 50px;
+}
+.col-sm-3.text-center.p-3.loni {
+  background-color: #36467a;
+  color: white;
+}
+.col-sm-3.mx-auto.text-center.pr-5.pt-lg-3.pl-5.pt-5.mrtobs {
+  background-color: #36467a;
+  color: white;
+}
+.col-sm-3.text-center.p-3.tomi{
+  background-color: #36467a;
+  color: white;
+}
+.col-sm-3.mx-auto.wale {
+  background-color: #36467a;
+  color: white;
+}
+.col-sm-3{
+  background-color: #36467a;
+  color: white;
+}
+.col-sm-3{
+  background-color: #36467a;
+  color: white;
+}
+
+/*Pre footer*/
+ul.justify-content-center.nav.mt-5 {
+  background-color: 36467a;
+  background-color: #47558b;
+  margin-top: -32px;
+  height: 63px;
+  padding-top: 14px;
+}
+/*footer*/
+footer {
+  background-color: #36467a;
+}
+
+@media (max-width: 576px) {
+  nav.navbar.navbar-expand-lg.navbar-light.bg-default.coloring {
+    background-color: #47558b;
+}
+  .jumbotron.jumbotron-fluid {
+    background-color: #47558b;
+    background-image: url('shapes.png');
+    background-size:cover;
+  }
+  h1.somewelcometext {
+    color: white;
+  }
+  .col-sm-6.text-md-center.welocmetext {
+    margin-top: 90px;
+  }
+  p.somewelcomeparagraph {
+    color: white;
+  }
+  li.nav-item.firstselect {
+    margin-left: 24px;
+    margin-right: 20px;
+  }
+  li.nav-item.secondselect {
+    margin-left: 3px;
+    margin-right: 20px;
+  }
+  ul.justify-content-center.nav {
+    background-color: 36467a;
+    background-color: #36467a;
+    margin-top: -32px;
+    height: 63px;
+    padding-top: 14px;
+  }
+  h1.text-center.topgigs {
+    margin-top: 60px;
+  }
+  .frontend {
+    background-color: #47558b;
+    padding-top: 18px;
+    color: white;
+    height: 356px;
+  }
+  .productdesigner {
+    background-color: #47558b;
+    padding-top: 18px;
+    color: white;
+    height: 356px;
+  }
+  .datascience {
+    background-color: #47558b;
+    padding-top: 18px;
+    color: white;
+    height: 356px;
+  }
+  /*buttons o the top gigs*/
+  button.btn.btn-warning.viewmore {
+    margin-left: 155px;
+  }
+  button.btn.btn-warning.viewmore1 {
+    margin-left: 155px;
+    margin-top: 76px;
+  }
+  button.btn.btn-warning.viewmore2 {
+    margin-left: 155px;
+    margin-top: 17px;
+  }
+  /*Top Graduates*/
+  h1.text-center.graduates {
+    margin-top: 50px;
+  }
+  .col-sm-3.text-center.p-3.loni {
+    background-color: #36467a;
+    color: white;
+  }
+  .col-sm-3.mx-auto.text-center.pr-5.pt-lg-3.pl-5.pt-5.mrtobs {
+    background-color: #36467a;
+    color: white;
+  }
+  .col-sm-3.text-center.p-3.tomi{
+    background-color: #36467a;
+    color: white;
+  }
+  .col-sm-3.mx-auto.wale {
+    background-color: #36467a;
+    color: white;
+  }
+  .col-sm-3{
+    background-color: #36467a;
+    color: white;
+  }
+  .col-sm-3{
+    background-color: #36467a;
+    color: white;
+  }
+  
+  /*Pre footer*/
+  ul.justify-content-center.nav.mt-5 {
+    background-color: 36467a;
+    background-color: #47558b;
+    margin-top: -32px;
+    height: 63px;
+    padding-top: 14px;
+  }
+  /*footer*/
+  footer {
+    background-color: #36467a;
+  }
+  
+ 
+ }
+
+
+@media (max-width: 768px) { 
+  
+  nav.navbar.navbar-expand-lg.navbar-light.bg-default.coloring {
+    background-color: #47558b;
+    width: 115%;
+}
+
+  .jumbotron.jumbotron-fluid {
+    background-color: #47558b;
+    background-image: url('shapes.png');
+    background-size:cover;
+    width: 115%;
+  }
+  .text-light {
+    color: #f8f9fa!important;
+}
+  h1.somewelcometext {
+    color: white;
+    white-space: nowrap;
+    font-size: xx-large;
+    margin-left: 20px;
+  }
+  .col-sm-6.text-md-center.welocmetext {
+    margin-top: 90px;
+  }
+  p.somewelcomeparagraph {
+    color: white;
+    font-size: larger;
+    margin-left: 58px;
+  }
+  .iwanta{
+    font-size: xx-large;
+    margin-left: -59px;
+  }
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-left: 40px;
+}
+  li.nav-item.firstselect {
+    margin-left: 24px;
+    margin-right: 20px;
+  }
+  li.nav-item.secondselect {
+    margin-left: 125px;
+    margin-right: 20px;
+  }
+  ul.justify-content-center.nav {
+    background-color: 36467a;
+    background-color: #36467a;
+    margin-top: -32px;
+    height: 100px;
+    padding-top: 14px;
+    width: 115%;
+  }
+  h1.text-center.topgigs {
+    margin-top: 60px;
+  }
+  .frontend {
+    background-color: #47558b;
+    padding-top: 18px;
+    color: white;
+    height: 356px;
+  }
+  .productdesigner {
+    background-color: #47558b;
+    padding-top: 18px;
+    color: white;
+    height: 356px;
+  }
+  .datascience {
+    background-color: #47558b;
+    padding-top: 18px;
+    color: white;
+    height: 356px;
+  }
+  /*buttons o the top gigs*/
+  button.btn.btn-warning.viewmore {
+    margin-left: 231px;
+    margin-top: 82px;
+  }
+  button.btn.btn-warning.viewmore1 {
+    margin-left: 231px;
+    margin-top: 82px;
+  }
+  button.btn.btn-warning.viewmore2 {
+    margin-left: 231px;
+    margin-top: 82px;
+  }
+  /*Top Graduates*/
+  h1.text-center.graduates {
+    margin-top: 50px;
+  }
+  .col-sm-3.text-center.p-3.loni {
+    background-color: #36467a;
+    color: white;
+  }
+  .col-sm-3.mx-auto.text-center.pr-5.pt-lg-3.pl-5.pt-5.mrtobs {
+    background-color: #36467a;
+    color: white;
+  }
+  .col-sm-3.text-center.p-3.tomi{
+    background-color: #36467a;
+    color: white;
+  }
+  .col-sm-3.mx-auto.wale {
+    background-color: #36467a;
+    color: white;
+  }
+  .col-sm-3{
+    background-color: #36467a;
+    color: white;
+  }
+  .col-sm-3{
+    background-color: #36467a;
+    color: white;
+  }
+  
+  /*Pre footer*/
+  ul.justify-content-center.nav.mt-5 {
+    background-color: 36467a;
+    background-color: #47558b;
+    margin-top: -32px;
+    height: 131px;
+    padding-top: 14px;
+  }
+  button.btn.btn-warning.sub{
+    height: 33px;
+  }
+  /*footer*/
+  footer {
+    background-color: #36467a;
+    width: 115%;
+  }
+  h6.mr-4.mt-1.text-light.subtext{
+    white-space: pre;
+  }
+  
+}
+
+@media (min-width: 992px) {
+  .jumbotron.jumbotron-fluid {
+    background-color: #47558b;
+    background-image: url('shapes.png');
+    background-size:cover;
+  }
+  h1.somewelcometext {
+    color: white;
+  }
+  .col-sm-6.text-md-center.welocmetext {
+    margin-top: 90px;
+  }
+  p.somewelcomeparagraph {
+    color: white;
+  }
+  li.nav-item.firstselect {
+    margin-left: 24px;
+    margin-right: 20px;
+  }
+  li.nav-item.secondselect {
+    margin-left: 3px;
+    margin-right: 20px;
+  }
+  ul.justify-content-center.nav {
+    background-color: 36467a;
+    background-color: #36467a;
+    margin-top: -32px;
+    height: 63px;
+    padding-top: 14px;
+  }
+  h1.text-center.topgigs {
+    margin-top: 60px;
+  }
+  .frontend {
+    background-color: #47558b;
+    padding-top: 18px;
+    color: white;
+    height: 356px;
+  }
+  .productdesigner {
+    background-color: #47558b;
+    padding-top: 18px;
+    color: white;
+    height: 356px;
+  }
+  .datascience {
+    background-color: #47558b;
+    padding-top: 18px;
+    color: white;
+    height: 356px;
+  }
+  /*buttons o the top gigs*/
+  button.btn.btn-warning.viewmore {
+    margin-left: 155px;
+  }
+  button.btn.btn-warning.viewmore1 {
+    margin-left: 155px;
+    margin-top: 76px;
+  }
+  button.btn.btn-warning.viewmore2 {
+    margin-left: 155px;
+    margin-top: 17px;
+  }
+  /*Top Graduates*/
+  h1.text-center.graduates {
+    margin-top: 50px;
+  }
+  .col-sm-3.text-center.p-3.loni {
+    background-color: #36467a;
+    color: white;
+  }
+  .col-sm-3.mx-auto.text-center.pr-5.pt-lg-3.pl-5.pt-5.mrtobs {
+    background-color: #36467a;
+    color: white;
+  }
+  .col-sm-3.text-center.p-3.tomi{
+    background-color: #36467a;
+    color: white;
+  }
+  .col-sm-3.mx-auto.wale {
+    background-color: #36467a;
+    color: white;
+  }
+  .col-sm-3{
+    background-color: #36467a;
+    color: white;
+  }
+  .col-sm-3{
+    background-color: #36467a;
+    color: white;
+  }
+  
+  /*Pre footer*/
+  ul.justify-content-center.nav.mt-5 {
+    background-color: 36467a;
+    background-color: #47558b;
+    margin-top: -32px;
+    height: 63px;
+    padding-top: 14px;
+  }
+  /*footer*/
+  footer {
+    background-color: #36467a;
+  }
+  
+ }
+
+
+@media (min-width: 1200px) {
+  .jumbotron.jumbotron-fluid {
+    background-color: #47558b;
+    background-image: url('shapes.png');
+    background-size:cover;
+  }
+  h1.somewelcometext {
+    color: white;
+  }
+  .col-sm-6.text-md-center.welocmetext {
+    margin-top: 90px;
+  }
+  p.somewelcomeparagraph {
+    color: white;
+  }
+  li.nav-item.firstselect {
+    margin-left: 24px;
+    margin-right: 20px;
+  }
+  li.nav-item.secondselect {
+    margin-left: 3px;
+    margin-right: 20px;
+  }
+  ul.justify-content-center.nav {
+    background-color: 36467a;
+    background-color: #36467a;
+    margin-top: -32px;
+    height: 63px;
+    padding-top: 14px;
+  }
+  h1.text-center.topgigs {
+    margin-top: 60px;
+  }
+  .frontend {
+    background-color: #47558b;
+    padding-top: 18px;
+    color: white;
+    height: 356px;
+  }
+  .productdesigner {
+    background-color: #47558b;
+    padding-top: 18px;
+    color: white;
+    height: 356px;
+  }
+  .datascience {
+    background-color: #47558b;
+    padding-top: 18px;
+    color: white;
+    height: 356px;
+  }
+  /*buttons o the top gigs*/
+  button.btn.btn-warning.viewmore {
+    margin-left: 155px;
+  }
+  button.btn.btn-warning.viewmore1 {
+    margin-left: 155px;
+    margin-top: 76px;
+  }
+  button.btn.btn-warning.viewmore2 {
+    margin-left: 155px;
+    margin-top: 17px;
+  }
+  /*Top Graduates*/
+  h1.text-center.graduates {
+    margin-top: 50px;
+  }
+  .col-sm-3.text-center.p-3.loni {
+    background-color: #36467a;
+    color: white;
+  }
+  .col-sm-3.mx-auto.text-center.pr-5.pt-lg-3.pl-5.pt-5.mrtobs {
+    background-color: #36467a;
+    color: white;
+  }
+  .col-sm-3.text-center.p-3.tomi{
+    background-color: #36467a;
+    color: white;
+  }
+  .col-sm-3.mx-auto.wale {
+    background-color: #36467a;
+    color: white;
+  }
+  .col-sm-3{
+    background-color: #36467a;
+    color: white;
+  }
+  .col-sm-3{
+    background-color: #36467a;
+    color: white;
+  }
+  
+  /*Pre footer*/
+  ul.justify-content-center.nav.mt-5 {
+    background-color: 36467a;
+    background-color: #47558b;
+    margin-top: -32px;
+    height: 63px;
+    padding-top: 14px;
+  }
+  /*footer*/
+  footer {
+    background-color: #36467a;
+  }
+  
+ }
+
+
+
+
